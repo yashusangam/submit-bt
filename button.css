@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+button{
+    font-size: 25px;
+    padding: 5px;
+    border-radius: 10px;
+
+}
+button:hover{
+    border: none;
+    background-color: rgb(241, 180, 105);
+    box-shadow: 
+    0 0 12px rgb(245, 180, 102),
+    0 0 42px rgb(253, 186, 104) ,
+    0 0 100px  rgb(233, 166, 85),
+    0 0 152px rgb(252, 180, 92);
+}
